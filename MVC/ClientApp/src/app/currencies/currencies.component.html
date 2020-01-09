@@ -1,0 +1,16 @@
+<h1 id="tableLabel">Crypto Currencies</h1>
+
+<table class='table table-dark' aria-labelledby="tableLabel" *ngIf="currencies">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let currency of currencies">
+      <td>{{ currency.name }}</td>
+      <td>{{ currency.price }}</td>
+    </tr>
+  </tbody>
+</table>
