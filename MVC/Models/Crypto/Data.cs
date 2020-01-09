@@ -9,5 +9,7 @@ namespace MVC.Models.Crypto
     {
         public BTC BTC { get; set; }
         public VET VET { get; set; }
+
+        public ETH ETH { get; set; }
     }
 }
